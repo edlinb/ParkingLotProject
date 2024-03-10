@@ -7,6 +7,7 @@ namespace ParkingLotProject.Models
 
         public partial class ParkingDbContext : DbContext
         {
+        //ergi
             public ParkingDbContext()
             { }
             public ParkingDbContext(DbContextOptions<ParkingDbContext> options) : base(options)
