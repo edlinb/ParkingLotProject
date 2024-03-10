@@ -5,6 +5,8 @@ namespace ParkingLotProject.Models
 {
     public class Log
     {
+        //ky Eshte koment i mateos
+        [Key]
         [Key] /*Ky eshte primary key*/
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
