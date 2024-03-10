@@ -12,6 +12,7 @@ namespace ParkingLotProject.Models
         public decimal DailyPricing { get; set; }
         public int MinimumHours { get; set; }
         public PricingPlanType Type { get; set; }
+        //koment nga edlin
     }
     public enum PricingPlanType
     {
