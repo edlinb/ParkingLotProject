@@ -5,7 +5,7 @@ namespace ParkingLotProject.Models
 {
     public class Log
     {
-        [Key]
+        [Key] /*Ky eshte primary key*/
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public int Code { get; set; }
