@@ -23,6 +23,6 @@ namespace ParkingLotProject.Models
         public int PlateNumber { get; set; }
         [Required]
         public bool isDeleted { get; set; } = false;
-
+        //Koment nga Marvi
     }
 }
